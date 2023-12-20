@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../../assets/img/butterflies.gif";
+import headerImg from "../../../assets/img/butterflies.gif";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
-import AnimatedLetters from '../AnimatedLetters'
-import LogoTitle from '../../assets/img/t-nature-logo.png'
+import AnimatedLetters from '../../AnimatedLetters'
+import LogoTitle from '../../../assets/img/t-nature-logo.png'
 
 import "./index.css"
 import 'animate.css';
 
-const Banner = () => {
+const Spring = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
 
     useEffect(() => {
@@ -70,4 +70,4 @@ const Banner = () => {
     )
 }
 
-export default Banner;
+export default Spring;

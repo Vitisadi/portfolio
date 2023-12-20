@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import NavBar from "./components/NavBar";
-import Body from "./components/Body";
+import Seasons from "./components/Seasons";
 // import { Skills } from "./components/Skills";
 // import { Projects } from "./components/Projects";
 // import { Contact } from "./components/Contact";
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       {/* <NavBar /> */}
-      <Body />
+      <Seasons />
       {/* <Skills />
       <Projects />
       <Contact />
