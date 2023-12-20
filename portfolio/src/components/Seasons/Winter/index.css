@@ -1,0 +1,10 @@
+.winter-container {
+    width: 100vw;      
+    height: 100vh;     
+    background-color: rgb(0, 195, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;      
+    font-size: 2em;    
+}
