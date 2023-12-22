@@ -1,8 +1,7 @@
 .magic-container {  
   position: relative;
   width: 100%;
-  height: 500px;
-  background-color: wheat;
+  height: auto;
   overflow: hidden; 
 }
 
@@ -16,6 +15,7 @@
 #tiles {
   display: flex;
   justify-content: center;
+  margin-top: 6%;
 }
 
 .tile {
