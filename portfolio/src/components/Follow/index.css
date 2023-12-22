@@ -3,11 +3,11 @@
     width: 100%;
     height: 500px;
     background-color: wheat;
+    overflow: hidden; /* This clips any overflowing content */
 }
 
 .follow-image {
     position: absolute;
-    width: 20%; /* Example: 20% of the container's width */
-    height: 30%; /* Example: 30% of the container's height */
-    height: auto; /* Keep the aspect ratio */
+    width: 20%; /* Adjust this percentage as needed */
+    height: auto; /* This will maintain the aspect ratio */
 }
