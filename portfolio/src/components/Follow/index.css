@@ -7,6 +7,7 @@
 
 .follow-image {
     position: absolute;
-    width: 50px; /* Adjust the size of the image */
+    width: 20%; /* Example: 20% of the container's width */
+    height: 30%; /* Example: 30% of the container's height */
     height: auto; /* Keep the aspect ratio */
 }
