@@ -1,0 +1,12 @@
+.follow-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: wheat;
+}
+
+.follow-image {
+    position: absolute;
+    width: 50px; /* Adjust the size of the image */
+    height: auto; /* Keep the aspect ratio */
+}
