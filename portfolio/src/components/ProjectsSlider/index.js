@@ -14,59 +14,36 @@ const Projects = () => {
         <div className="projects-slider-wrapper">
             <div className="projects-slider-container">
                 {portfolioData.portfolio.map((item, index) => (
-                    <label 
-                        key={item.title + index} // Unique key for each element
-                        className={`card ${activeCard === index ? 'active' : ''}`}
+                    <div 
+                        className={`card ${activeCard === index ? 'active' : ''}`} 
+                        key={item.title + index} 
                         onClick={() => handleClick(index)}
-                        style={{ backgroundImage: `url(${item.image})` }} // Set background image
+                        style={{ backgroundImage: `url(${item.image})` }} 
                     >
-                        <div className="row">
-                            <div className="icon">{index + 1}</div>
-                            <div className="description">
-                                <h4>{item.title}</h4>
-                                <p>{item.description}</p>
-                            </div>
+                        <div className="content">
+                            <p className="title">{item.name}</p>
+                            <h4 className="description">{item.description}</h4>
+                            <button
+                                className="btn"
+                                onClick={() => window.open(item.url)}
+                            >View</button>
                         </div>
-                    </label>
+                    </div>
+                    // <label 
+                    //     key={item.title + index} 
+                    //     className={`card ${activeCard === index ? 'active' : ''}`}
+                    //     onClick={() => handleClick(index)}
+                    //     style={{ backgroundImage: `url(${item.image})` }} 
+                    // >
+                    //     <div className="row">
+                    //         <div className="icon">{index + 1}</div>
+                    //         <div className="description">
+                    //             <h4>{item.title}</h4>
+                    //             <p>{item.description}</p>
+                    //         </div>
+                    //     </div>
+                    // </label>
                 ))}
-                {/* <label 
-                    className={`card ${activeCard === 'c1' ? 'active' : ''}`}
-                    onClick={() => handleClick('c1')}
-                >
-                    <div className="row">
-                        <div className="icon">1</div>
-                        <div className="description">
-                            <p>Winter has so much to offer -
-                            creative activities</p>
-                        </div>
-                    </div>
-                </label>
-
-                <label 
-                    className={`card ${activeCard === 'c2' ? 'active' : ''}`}
-                    onClick={() => handleClick('c2')}
-                >
-                    <div className="row">
-                        <div className="icon">2</div>
-                        <div className="description">
-                            <p>Winter has so much to offer -
-                            creative activities</p>
-                        </div>
-                    </div>
-                </label>
-
-                <label 
-                    className={`card ${activeCard === 'c3' ? 'active' : ''}`}
-                    onClick={() => handleClick('c3')}
-                >
-                    <div className="row">
-                        <div className="icon">3</div>
-                        <div className="description">
-                            <p>Winter has so much to offer -
-                            creative activities</p>
-                        </div>
-                    </div>
-                </label> */}
             </div>
         </div>
     )
