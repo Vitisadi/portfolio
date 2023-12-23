@@ -21,7 +21,7 @@ const Projects = () => {
                         style={{ backgroundImage: `url(${item.image})` }} 
                     >
                         <div className="content">
-                            <p className="title">{item.name}</p>
+                            <p className="title">{item.title}</p>
                             <h4 className="description">{item.description}</h4>
                             <button
                                 className="btn"
@@ -29,20 +29,6 @@ const Projects = () => {
                             >View</button>
                         </div>
                     </div>
-                    // <label 
-                    //     key={item.title + index} 
-                    //     className={`card ${activeCard === index ? 'active' : ''}`}
-                    //     onClick={() => handleClick(index)}
-                    //     style={{ backgroundImage: `url(${item.image})` }} 
-                    // >
-                    //     <div className="row">
-                    //         <div className="icon">{index + 1}</div>
-                    //         <div className="description">
-                    //             <h4>{item.title}</h4>
-                    //             <p>{item.description}</p>
-                    //         </div>
-                    //     </div>
-                    // </label>
                 ))}
             </div>
         </div>

@@ -57,31 +57,30 @@
         opacity: 1;
     }
 
-    p.title {
+    /* p.title {
         margin-left: 100px;
         margin-top: 100px;
         opacity: 1
 
-    }
+    } */
 
     .title {
-        margin-bottom: 0;
+        margin-bottom: 5;
         margin-top: 0;
         color: #fff;
         font-size: 24px;
         font-weight: 500;
         line-height: 24px;
-        opacity: 1
-        
+        opacity: 1;
+        font-weight: bold;
     }
 
     .description {
         font-size: 14px;
         margin-bottom: 5px;
-        color: #fff;
+        color: #b9b9b9;
         font-weight: 700;
         opacity: 1
-
     }
 
     .btn {
