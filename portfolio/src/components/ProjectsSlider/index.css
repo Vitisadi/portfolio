@@ -50,12 +50,7 @@
 
     &:hover:after {
         opacity: 0.85;
-    }
-
-    &:hover .content {
-        bottom: 0;
-        background: transparent;
-    }
+    }   
 }
 
 .content {
@@ -106,7 +101,7 @@
         padding: 0 23px;
         height: 40px;
         line-height: 34px;
-        border: 2px solid #ffd700;
+        border: 2px solid rgb(83, 138, 194);
         border-radius: 4px;
         font-size: 14px;
         color: #fff;
@@ -119,6 +114,13 @@
 
     .btn:hover {
         transform: translateY(-3px);
-        background: #ffd700;
+        background: rgb(83, 138, 194);
+    }
+
+    
+
+    &:hover .content {
+        bottom: 0;
+        background: transparent;
     }
 }

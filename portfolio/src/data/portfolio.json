@@ -7,46 +7,35 @@
             "url": "https://devpost.com/software/mathwhisperer"
         },
         {
-            "image": "/projects/mathWhisperer.png",
-            "title": "Math Whisperer",
-            "description": "Hack RPI 2023 - OpenAI / React / Wolfram Alpha",
-            "url": "https://devpost.com/software/mathwhisperer"
+            "image": "/projects/image-recognition.png",
+            "title": "Image Recognition Neural Network",
+            "description": "PyTorch, Torchvision, Python",
+            "url": "https://github.com/Vitisadi/image-recognition"
         },
         {
-            "image": "/projects/mathWhisperer.png",
-            "title": "Math Whisperer",
-            "description": "Hack RPI 2023 - OpenAI / React / Wolfram Alpha",
-            "url": "https://devpost.com/software/mathwhisperer"
+            "image": "",
+            "title": "Connect 4 AI Challenge",
+            "description": "Co-Champion - Python",
+            "url": "https://github.com/Vitisadi/connect-four-AI"
         },
         {
-            "image": "/projects/mathWhisperer.png",
-            "title": "Math Whisperer",
-            "description": "Hack RPI 2023 - OpenAI / React / Wolfram Alpha",
-            "url": "https://devpost.com/software/mathwhisperer"
+            "image": "",
+            "title": "CartX",
+            "description": "RCOS - React",
+            "url": "https://github.com/Vitisadi/CartX"
         },
         {
-            "image": "/projects/mathWhisperer.png",
-            "title": "Math Whisperer",
-            "description": "Hack RPI 2023 - OpenAI / React / Wolfram Alpha",
-            "url": "https://devpost.com/software/mathwhisperer"
+            "image": "",
+            "title": "Overlord",
+            "description": "RCOS - Discord Bot - Python",
+            "url": "https://github.com/overlord-bot/Overlord"
         },
         {
-            "image": "/projects/mathWhisperer.png",
-            "title": "Math Whisperer",
-            "description": "Hack RPI 2023 - OpenAI / React / Wolfram Alpha",
-            "url": "https://devpost.com/software/mathwhisperer"
-        },
-        {
-            "image": "/projects/mathWhisperer.png",
-            "title": "Math Whisperer",
-            "description": "Hack RPI 2023 - OpenAI / React / Wolfram Alpha",
-            "url": "https://devpost.com/software/mathwhisperer"
-        },
-        {
-            "image": "/projects/mathWhisperer.png",
-            "title": "Math Whisperer222",
-            "description": "Hack RPI 2023 - OpenAI / React / Wolfram Alpha",
-            "url": "https://google.com"
+            "image": "",
+            "title": "Glibby",
+            "description": "RCOS - C++, CMake",
+            "url": "https://github.com/Vitisadi/glibby"
         }
+        
     ]
 }
