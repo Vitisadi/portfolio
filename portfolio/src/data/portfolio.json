@@ -1,13 +1,13 @@
 {
     "portfolio": [
         {
-            "image": "/portfolio/mathWhisperer.png",
+            "image": "/projects/mathWhisperer.png",
             "title": "Math Whisperer",
             "description": "Hack RPI 2023 - OpenAI / React / Wolfram Alpha",
             "url": "https://devpost.com/software/mathwhisperer"
         },
         {
-            "image": "/portfolio/mathWhisperer.png",
+            "image": "/projects/mathWhisperer.png",
             "title": "Math Whisperer",
             "description": "Hack RPI 2023 - OpenAI / React / Wolfram Alpha",
             "url": "https://devpost.com/software/mathwhisperer"

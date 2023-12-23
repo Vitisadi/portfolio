@@ -1,19 +1,35 @@
 import "./index.css"
 import portfolioData from '../../data/portfolio.json'
 
-
 import { useState } from 'react'
 const Projects = () => {
-    const [activeCard, setActiveCard] = useState('c1');
+    const [activeCard, setActiveCard] = useState(0);
 
     const handleClick = (cardId) => {
         setActiveCard(cardId);
+        console.log(activeCard)
     };
 
     return (
         <div className="projects-slider-wrapper">
             <div className="projects-slider-container">
-                <label 
+                {portfolioData.portfolio.map((item, index) => (
+                    <label 
+                        key={item.title + index} // Unique key for each element
+                        className={`card ${activeCard === index ? 'active' : ''}`}
+                        onClick={() => handleClick(index)}
+                        style={{ backgroundImage: `url(${item.image})` }} // Set background image
+                    >
+                        <div className="row">
+                            <div className="icon">{index + 1}</div>
+                            <div className="description">
+                                <h4>{item.title}</h4>
+                                <p>{item.description}</p>
+                            </div>
+                        </div>
+                    </label>
+                ))}
+                {/* <label 
                     className={`card ${activeCard === 'c1' ? 'active' : ''}`}
                     onClick={() => handleClick('c1')}
                 >
@@ -50,7 +66,7 @@ const Projects = () => {
                             creative activities</p>
                         </div>
                     </div>
-                </label>
+                </label> */}
             </div>
         </div>
     )
