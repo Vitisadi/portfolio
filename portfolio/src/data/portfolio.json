@@ -3,8 +3,14 @@
         {
             "image": "/projects/mathWhisperer.png",
             "title": "Math Whisperer",
-            "description": "Hack RPI 2023 - OpenAI / React / Wolfram Alpha",
+            "description": "Hack RPI 2023 - React / OpenAI / Wolfram Alpha",
             "url": "https://devpost.com/software/mathwhisperer"
+        },
+        {
+            "image": "/projects/connect4.png",
+            "title": "Connect 4 AI Challenge",
+            "description": "Co-Champion - Python",
+            "url": "https://github.com/Vitisadi/connect-four-AI"
         },
         {
             "image": "/projects/image-recognition.png",
@@ -13,28 +19,22 @@
             "url": "https://github.com/Vitisadi/image-recognition"
         },
         {
-            "image": "",
-            "title": "Connect 4 AI Challenge",
-            "description": "Co-Champion - Python",
-            "url": "https://github.com/Vitisadi/connect-four-AI"
-        },
-        {
-            "image": "",
+            "image": "/projects/cartx.png",
             "title": "CartX",
-            "description": "RCOS - React",
+            "description": "RCOS - Project Lead - React",
             "url": "https://github.com/Vitisadi/CartX"
         },
         {
-            "image": "",
+            "image": "/projects/overlord.png",
             "title": "Overlord",
-            "description": "RCOS - Discord Bot - Python",
+            "description": "RCOS - Python (Web Scraping)",
             "url": "https://github.com/overlord-bot/Overlord"
         },
         {
-            "image": "",
+            "image": "/projects/glibby.gif",
             "title": "Glibby",
-            "description": "RCOS - C++, CMake",
-            "url": "https://github.com/Vitisadi/glibby"
+            "description": "RCOS - C++",
+            "url": "https://github.com/2020wmarvil/glibby"
         }
         
     ]

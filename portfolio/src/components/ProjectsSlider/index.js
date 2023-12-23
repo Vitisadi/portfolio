@@ -3,7 +3,7 @@ import portfolioData from '../../data/portfolio.json'
 
 import { useState } from 'react'
 const Projects = () => {
-    const [activeCard, setActiveCard] = useState(0);
+    const [activeCard, setActiveCard] = useState(2);
 
     const handleClick = (cardId) => {
         setActiveCard(cardId);
