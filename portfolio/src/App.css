@@ -73,11 +73,3 @@ input:focus, textarea:focus, select:focus {
 		padding: 0 150px;
 	}
 }
-
-p.success {
-	color: green;
-}
-
-p.danger {
-	color: red;
-}
