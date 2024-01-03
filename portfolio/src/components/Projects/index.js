@@ -1,7 +1,8 @@
 import "./index.css"
 
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectSlider from "../ProjectsSlider";
+// import ProjectSlider from "../ProjectsSlider";
+import ProjectBlocks from "../ProjectBlocks";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -16,7 +17,8 @@ const Projects = () => {
               <div>
                 <h2>Projects</h2>
                 <p className="desc">Welcome to My Creations! Here, you'll find a colorful array of projects that I've poured my heart and soul into. </p>
-                <ProjectSlider />
+                {/* <ProjectSlider /> */}
+                <ProjectBlocks /> 
               </div>}
             </TrackVisibility>
           </Col>

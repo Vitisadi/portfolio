@@ -8,32 +8,32 @@
         },
         {
             "image": "/projects/connect4.png",
-            "title": "Connect 4 AI Challenge",
-            "description": "Co-Champion - Python",
+            "title": "Connect 4 AI Co-Champion",
+            "description": "Python",
             "url": "https://github.com/Vitisadi/connect-four-AI"
         },
         {
             "image": "/projects/image-recognition.png",
             "title": "Image Recognition Neural Network",
-            "description": "PyTorch, Torchvision, Python",
+            "description": "Python, PyTorch, Torchvision",
             "url": "https://github.com/Vitisadi/image-recognition"
         },
         {
             "image": "/projects/cartx.png",
-            "title": "CartX",
-            "description": "RCOS - Project Lead - React",
+            "title": "CartX - Project Lead",
+            "description": "React, Selenium",
             "url": "https://github.com/Vitisadi/CartX"
         },
         {
             "image": "/projects/overlord.png",
             "title": "Overlord",
-            "description": "RCOS - Python (Web Scraping)",
+            "description": "Python, Beautifulsoup",
             "url": "https://github.com/overlord-bot/Overlord"
         },
         {
             "image": "/projects/glibby.gif",
             "title": "Glibby",
-            "description": "RCOS - C++",
+            "description": "C++",
             "url": "https://github.com/2020wmarvil/glibby"
         }
         
