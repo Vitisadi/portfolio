@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // import contactImg from "../../assets/img/contact-img.svg";
 import 'animate.css';
 import emailjs from '@emailjs/browser'
-// import ProjectsSlider from "../ProjectsSlider";
+import ProjectsSlider from "../ProjectsSlider";
 
 
 
@@ -42,12 +42,11 @@ const Contact = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col size={12} md={6}>
-                        {/* <img src={contactImg} alt="Contact Us"/> */}
-                        {/* <ProjectsSlider></ProjectsSlider> */}
+                        <ProjectsSlider></ProjectsSlider>
                     </Col>
                     <Col size={12} md={6}>
                         <div>
-                            <h2>Get In Touch</h2>
+                            <h2>Contact</h2>
                             <form ref={refForm} onSubmit={handleSubmit}>
                                 <Row>
                                     <Col size={12} sm={6} className="px-1">
