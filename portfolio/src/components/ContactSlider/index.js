@@ -1,26 +1,29 @@
 import "./index.css"
 // import portfolioData from '../../data/portfolio.json'
-import flower1 from "../../assets/img/flower1.png";
-import flower2 from "../../assets/img/flower2.png";
-import flower3 from "../../assets/img/flower3.png";
+import discover from "../../assets/img/discover.png";
+import design from "../../assets/img/design.png";
+import deliver from "../../assets/img/deliver.png";
 
 import { useState } from 'react'
-const Projects = () => {
+const ContactSlider = () => {
     const portfolioData =  [
         {
-            "image": flower1,
+            "image": discover,
+            "title": "Discover"
         },
         {
-            "image": flower2,
+            "image": design,
+            "title": "Design"
         },
         {
-            "image": flower3,
+            "image": deliver,
+            "title": "Deliver"
         }
     ]
 
 
 
-    const [activeCard, setActiveCard] = useState(1);
+    const [activeCard, setActiveCard] = useState(0);
 
     const handleClick = (cardId) => {
         setActiveCard(cardId);
@@ -37,12 +40,12 @@ const Projects = () => {
                         onClick={() => handleClick(index)}
                         style={{ backgroundImage: `url(${item.image})` }} 
                     >
-                        <div class="icon">{index + 1}</div>
-                        {/* <div class="description">
-                            <h4>Digital Technology</h4>
-                            <p>Gets better every day -
-                            stay tuned</p>
-                        </div> */}
+                        <div class="row">
+                            <div class="icon">{index + 1}</div>
+                            <div class="description">
+                                <h4>{item.title}</h4>
+                            </div>
+                        </div>
                     </div>
                 ))}
             </div>
@@ -51,4 +54,4 @@ const Projects = () => {
 }
 
 
-export default Projects
+export default ContactSlider
