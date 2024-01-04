@@ -14,7 +14,7 @@ export const About = () => {
                             <br></br> 
                             and Information Technology. Coding is my passion as it allows me to create all of my crazy ideas. 
                             <br></br> 
-                            I love exploring new designs and am excited for what challenges the future holds!       
+                            I love exploring new designs and I am excited for what challenges the future holds!       
                         </p>
                         <MagicReveal />
                     </div>
