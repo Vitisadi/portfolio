@@ -1,13 +1,13 @@
 import "./index.css"
 import MagicReveal from "../MagicReveal"
 
-export const Skills = () => {
+export const About = () => {
   return (
-    <section className="skill" id="skills">
+    <section className="about" id="about">
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="about-bx wow zoomIn">
                         <h2>About</h2>
                         <p>
                             I am currently a student at Rensselaer Polytechnic Institute duel majoring in computer science 
@@ -27,4 +27,4 @@ export const Skills = () => {
   )
 }
 
-export default Skills
+export default About
