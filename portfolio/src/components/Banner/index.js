@@ -52,17 +52,16 @@ const Banner = () => {
                     />
                     </h1>
                     <p>Student / Scuba Diver / Soccer player</p>
-                    <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                    <button>
+                      <a href="#connect">Let’s Connect <ArrowRightCircle size={25} /></a>
+                    </button>
                 </div>}
               </TrackVisibility>
             </Col>
             <Col xs={12} md={6} xl={5}>
-              <TrackVisibility>
-                {({ isVisible }) =>
-                  <div>
-                    <img src={headerImg} alt="Header Img"/>
-                  </div>}
-              </TrackVisibility>
+              <div>
+                <img src={headerImg} alt="Header Img"/>
+              </div>
             </Col>
           </Row>
         </Container>

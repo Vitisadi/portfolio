@@ -98,3 +98,8 @@ h2 {
     animation: rotateIn 1s linear both;
     animation-delay: 0.7s;
 }
+
+.banner a {
+    color: inherit;
+    text-decoration: none; 
+}
