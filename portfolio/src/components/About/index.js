@@ -10,13 +10,12 @@ export const About = () => {
                     <div className="about-bx wow zoomIn">
                         <h2>About</h2>
                         <p>
-                            I am currently a student at Rensselaer Polytechnic Institute duel majoring in computer science 
+                            I am currently a student at Rensselaer Polytechnic Institute, duel majoring in Computer Science 
                             <br></br> 
-                            and information technology with a minor in Cognitive Science of Artificial Intelligence. Coding is 
+                            and Information Technology.Coding is my passion, as it allows me to create all of my crazy ideas. 
                             <br></br> 
-                            my passion, as it allows me to create all of my crazy ideas. I love exploring new designs and am 
-                            <br></br> 
-                            excited for what challenges the future holds!                            
+                            I love exploring new designs and am excited for what challenges the future holds!       
+                                                 
                         </p>
                         <MagicReveal />
                     </div>

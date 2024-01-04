@@ -51,7 +51,7 @@ const Banner = () => {
                         idx={23}
                     />
                     </h1>
-                    <p>Student / Scuba Diver / Soccer player</p>
+                    <p>Student / Scuba Diver / Athlete </p>
                     <button>
                       <a href="#connect">Let’s Connect <ArrowRightCircle size={25} /></a>
                     </button>

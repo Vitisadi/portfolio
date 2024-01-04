@@ -1,20 +1,20 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './index.css';
 import roseImg from "../../assets/img/rose.png";
-import flower1 from "../../assets/img/flower1.png";
-import flower2 from "../../assets/img/flower2.png";
-import flower3 from "../../assets/img/flower3.png";
-import flower4 from "../../assets/img/flower4.png";
-import flower5 from "../../assets/img/flower5.png";
-import flower6 from "../../assets/img/flower6.png";
+import professionalIcon from "../../assets/img/professional-icon2-i.png";
+import professional from "../../assets/img/professional.jpg";
+import scubaIcon from "../../assets/img/scuba-icon-i.png";
+import scuba from "../../assets/img/scuba.JPG";
+import soccerIcon from "../../assets/img/soccer-icon2-i.png";
+import soccer from "../../assets/img/soccer.JPG";
 
 
 const MagicReveal = () => {
     const [position, setPosition] = useState({ x: 10, y: 0, rotate: -10, animate: false });
     const [tiles, setTiles] = useState([
-        { opacity: 0, blur: 1, animate: false, img: flower1, img2: flower2},
-        { opacity: 0, blur: 1, animate: false, img: flower3, img2: flower4},
-        { opacity: 0, blur: 1, animate: false, img: flower5, img2: flower6},
+        { opacity: 0, blur: 1, animate: false, img: professionalIcon, img2: professional},
+        { opacity: 0, blur: 1, animate: false, img: scubaIcon, img2: scuba},
+        { opacity: 0, blur: 1, animate: false, img: soccerIcon, img2: soccer},
     ]);
     const containerRef = useRef(null);
     const imageRef = useRef(null);
