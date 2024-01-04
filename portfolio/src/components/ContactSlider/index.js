@@ -40,9 +40,9 @@ const ContactSlider = () => {
                         onClick={() => handleClick(index)}
                         style={{ backgroundImage: `url(${item.image})` }} 
                     >
-                        <div class="row">
-                            <div class="icon">{index + 1}</div>
-                            <div class="description">
+                        <div className="row">
+                            <div className="icon">{index + 1}</div>
+                            <div className="description">
                                 <h4>{item.title}</h4>
                             </div>
                         </div>
