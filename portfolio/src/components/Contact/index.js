@@ -26,15 +26,16 @@ const Contact = () => {
             )
             .then(
                 () => {
-                    setButtonText("Send");
                     alert('Message successfully sent!');
                     window.location.reload(false);
                 },
                 () => {
-                    setButtonText("Send");
                     alert('Failed to send the message, please try again.')
                 }
             )
+            .finally(() => {
+                setButtonText("Send");
+            });
     };
 
     return (
