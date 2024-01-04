@@ -12,7 +12,7 @@ export const About = () => {
                         <p>
                             I am currently a student at Rensselaer Polytechnic Institute, duel majoring in Computer Science 
                             <br></br> 
-                            and Information Technology. Coding is my passion, as it allows me to create all of my crazy ideas. 
+                            and Information Technology. Coding is my passion as it allows me to create all of my crazy ideas. 
                             <br></br> 
                             I love exploring new designs and am excited for what challenges the future holds!       
                         </p>
