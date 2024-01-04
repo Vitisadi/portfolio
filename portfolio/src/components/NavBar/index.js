@@ -4,6 +4,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../../assets/img/full-logo.png';
 import navIcon1 from '../../assets/img/nav-icon1.svg';
 import navIcon2 from '../../assets/img/github-logo.png';
+import navIcon3 from '../../assets/img/resume-icon-i.png';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -49,8 +50,9 @@ const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/timothy-liakh/"><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/Vitisadi"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.linkedin.com/in/timothy-liakh/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/Vitisadi" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
+                <a href="https://docs.google.com/document/d/1EP1qe_PEQnfkvPLsR4FfZb-uxiSqHykJ/edit?usp=sharing&ouid=112826554107963651538&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
