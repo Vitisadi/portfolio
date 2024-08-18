@@ -6,6 +6,16 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+.project-bx {
+  background-image: url('../../assets/img/blank-background-darker.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 64px;
+  padding: 60px 50px 0 50px;
+}
+
   .project h2 {
     font-size: 45px;
     font-weight: 700;

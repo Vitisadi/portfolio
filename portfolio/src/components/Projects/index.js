@@ -14,10 +14,9 @@ const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div>
+              <div className="project-bx">
                 <h2>Projects</h2>
                 <p className="desc">Welcome to My Creations! Here, you'll find a colorful array of projects that I've poured my heart and soul into. </p>
-                {/* <ProjectSlider /> */}
                 <ProjectBlocks /> 
               </div>}
             </TrackVisibility>
