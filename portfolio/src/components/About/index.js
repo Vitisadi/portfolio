@@ -16,7 +16,10 @@ export const About = () => {
                             <br></br> 
                             I love exploring new designs and I am excited for what challenges the future holds!       
                         </p>
-                        <MagicReveal />
+                        <div className="icon-instruction">
+                            <p className="hover-instruction">Hover over the icons to reveal more!</p>
+                            <MagicReveal />
+                        </div>
                     </div>
                 </div>
             </div>
