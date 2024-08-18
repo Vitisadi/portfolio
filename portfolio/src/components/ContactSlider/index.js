@@ -1,19 +1,19 @@
 import "./index.css"
 // import portfolioData from '../../data/portfolio.json'
-import discover from "../../assets/img/discover.png";
-import design from "../../assets/img/design.png";
-import deliver from "../../assets/img/deliver.png";
+import plan from "../../assets/img/plan.webp";
+import build from "../../assets/img/build.webp";
+import deliver from "../../assets/img/deliver.webp";
 
 import { useState } from 'react'
 const ContactSlider = () => {
     const portfolioData =  [
         {
-            "image": discover,
-            "title": "Discover"
+            "image": plan,
+            "title": "Plan"
         },
         {
-            "image": design,
-            "title": "Design"
+            "image": build,
+            "title": "Build"
         },
         {
             "image": deliver,
