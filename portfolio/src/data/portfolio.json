@@ -1,39 +1,45 @@
 {
     "portfolio": [
         {
+            "image": "/projects/financeHacks.png",
+            "title": "Finance For All 🏆🏆🏆",
+            "technologies": "Google Gemini / React / Express JS",
+            "description": "🥇Spring 2024 NSBE-SHPE Hackathon Winner🥇||Developed a platform using React and Express JS that simplifies bank comparisons for accounts, credit cards, and loan rates, saving users significant research time. Integrated Google Gemini to create a responsive chatbot, enhancing user experience with financial literacy support.",
+            "url": "https://github.com/Nikulp23/FinanceHacks"
+        },
+        {
+            "image": "/projects/cartx.png",
+            "title": "CartX",
+            "technologies": "React / Express JS / Python / Selenium / Mongo DB",
+            "description": "⚡Project Lead⚡||CartX Vision revolutionizes shopping by finding the best local deals with a single click. Leveraging a dynamic React frontend and a powerful Node.js backend, it reduces shopping time by up to 15%. Integrated with RESTful APIs and advanced web scraping, CartX provides users with real-time price comparisons across major retailers.",
+            "url": "https://github.com/CartX-RCOS"
+        },
+        {
             "image": "/projects/mathWhisperer.png",
             "title": "Math Whisperer",
-            "description": "Hack RPI 2023 - React / OpenAI / Wolfram Alpha",
+            "technologies": "React / OpenAI / Wolfram Alpha / Voice Recognition",
+            "description": "💡Hack RPI 2023 Submission💡||Transforming math accessibility with voice commands, our project empowers visually impaired users to solve equations effortlessly. Advanced speech recognition and NLP deliver intuitive auditory responses, making education more inclusive.",
             "url": "https://devpost.com/software/mathwhisperer"
         },
         {
             "image": "/projects/connect4.png",
             "title": "Connect 4 AI Co-Champion",
-            "description": "Python",
+            "technologies": "Python",
+            "description": "🧠2023 Minds and Machines AI Competition🧠||Developed a Connect 4 AI using minimax algorithms and alpha-beta pruning to accurately predict optimal moves up to six moves ahead. The AI consistently makes strong strategic decisions, demonstrating advanced gameplay and effective decision-making.",
             "url": "https://github.com/Vitisadi/connect-four-AI"
         },
         {
             "image": "/projects/image-recognition.png",
             "title": "Image Recognition Neural Network",
-            "description": "Python, PyTorch, Torchvision",
+            "technologies": "Python, PyTorch, Torchvision",
+            "description": "🤖AI Image Recognition🤖||Developed an image recognition neural network using AlexNet, a pre-trained 8-layer deep neural network that classifies images into 1,000 categories.",
             "url": "https://github.com/Vitisadi/image-recognition"
-        },
-        {
-            "image": "/projects/cartx.png",
-            "title": "CartX - Project Lead",
-            "description": "React, Selenium",
-            "url": "https://github.com/Vitisadi/CartX"
-        },
-        {
-            "image": "/projects/overlord.png",
-            "title": "Overlord",
-            "description": "Python, Beautifulsoup",
-            "url": "https://github.com/overlord-bot/Overlord"
         },
         {
             "image": "/projects/glibby.gif",
             "title": "Glibby",
-            "description": "C++",
+            "technologies": "C++ / CMake",
+            "description": "🔥RCOS Spring '23🔥||Developed advanced algorithms for polynomial operations, including addition, subtraction, multiplication, division, and root finding using techniques like the quadratic formula. This enhancement significantly boosts the library's computational capabilities, supporting high-performance calculations for diverse applications.",
             "url": "https://github.com/2020wmarvil/glibby"
         }
         
