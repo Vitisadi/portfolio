@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './index.css';
 import roseImg from "../../assets/img/rose.png";
 import professionalIcon from "../../assets/img/professional-icon2-i.png";
-import professional from "../../assets/img/professional.jpg";
+import professional from "../../assets/img/self-photo.heic";
 import scubaIcon from "../../assets/img/scuba-icon-i.png";
 import scuba from "../../assets/img/scuba.JPG";
 import soccerIcon from "../../assets/img/soccer-icon2-i.png";
