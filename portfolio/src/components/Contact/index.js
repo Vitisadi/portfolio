@@ -1,11 +1,9 @@
 import "./index.css"
 import { useState, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import contactImg from "../../assets/img/contact-img.svg";
 import 'animate.css';
 import emailjs from '@emailjs/browser'
 import ContactSlider from "../ContactSlider";
-
 
 
 const Contact = () => {
