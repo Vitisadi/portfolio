@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe9cee6c.css",
-    "main.js": "/static/js/main.7160223c.js",
+    "main.css": "/static/css/main.0a3330c9.css",
+    "main.js": "/static/js/main.95dcc6a2.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
-    "static/media/discover.png": "/static/media/discover.f4e82de03bf75b7c0498.png",
-    "static/media/design.png": "/static/media/design.4d3ed51f0d474deb7e81.png",
     "static/media/flower-background-projects.png": "/static/media/flower-background-projects.1717f3024fe25520b2c1.png",
-    "static/media/deliver.png": "/static/media/deliver.25856ad8065f240807ff.png",
-    "static/media/professional.jpg": "/static/media/professional.33de2cd90c6060ce0895.jpg",
+    "static/media/self-photo.heic": "/static/media/self-photo.71bc60ecbf87681cd077.heic",
     "static/media/butterflies.gif": "/static/media/butterflies.314411c7d280d5a7b178.gif",
+    "static/media/build.webp": "/static/media/build.b33d0ba0055e64a762ba.webp",
+    "static/media/plan.webp": "/static/media/plan.a67117441ae40c738656.webp",
+    "static/media/deliver.webp": "/static/media/deliver.60df76ad10c2ebb00154.webp",
     "static/media/flower-background.jpg": "/static/media/flower-background.efe8a01faf04a23211a9.jpg",
+    "static/media/flower-background-flipped.jpg": "/static/media/flower-background-flipped.4a830b73b6089a2ded2a.jpg",
     "static/media/t-nature-logo.png": "/static/media/t-nature-logo.26c1ee86bbd1ed60cb75.png",
     "static/media/rose.png": "/static/media/rose.42516f83053f18ebcc33.png",
     "static/media/scuba.JPG": "/static/media/scuba.fc826b4994a073c2fd79.JPG",
@@ -26,12 +27,12 @@
     "static/media/resume-icon-i.png": "/static/media/resume-icon-i.2974ea6464a4569501fe.png",
     "index.html": "/index.html",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.fe9cee6c.css.map": "/static/css/main.fe9cee6c.css.map",
-    "main.7160223c.js.map": "/static/js/main.7160223c.js.map",
+    "main.0a3330c9.css.map": "/static/css/main.0a3330c9.css.map",
+    "main.95dcc6a2.js.map": "/static/js/main.95dcc6a2.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe9cee6c.css",
-    "static/js/main.7160223c.js"
+    "static/css/main.0a3330c9.css",
+    "static/js/main.95dcc6a2.js"
   ]
 }
