@@ -53,7 +53,7 @@ const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/timothy-liakh/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/Vitisadi" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
-                <a href="https://docs.google.com/document/d/1EP1qe_PEQnfkvPLsR4FfZb-uxiSqHykJ/edit?usp=sharing&ouid=112826554107963651538&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
+                <a href="/resume/timothy_liakh_resume.pdf" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

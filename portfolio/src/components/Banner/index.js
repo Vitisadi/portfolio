@@ -55,7 +55,9 @@ const Banner = () => {
                     </h1>
                     <p>Student / Scuba Diver / Athlete </p>
                     <button>
-                    <a href="https://docs.google.com/document/d/1EP1qe_PEQnfkvPLsR4FfZb-uxiSqHykJ/edit?usp=sharing&ouid=112826554107963651538&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">View Resume <ArrowRightCircle size={25} /></a>
+                      <a href="/resume/timothy_liakh_resume.pdf" target="_blank" rel="noopener noreferrer">
+                        View Resume <ArrowRightCircle size={25} />
+                      </a>
                     </button>
                 </div>}
               </TrackVisibility>
