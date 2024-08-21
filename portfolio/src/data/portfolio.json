@@ -2,44 +2,44 @@
     "portfolio": [
         {
             "image": "/projects/financeHacks.png",
-            "title": "Finance For All 🏆🏆🏆",
+            "title": "🏆Finance For All 🏆",
             "technologies": "Google Gemini / React / Express JS",
-            "description": "🥇Spring 2024 NSBE-SHPE Hackathon Winner🥇||Developed a platform using React and Express JS that simplifies bank comparisons for accounts, credit cards, and loan rates, saving users significant research time. Integrated Google Gemini to create a responsive chatbot, enhancing user experience with financial literacy support.",
+            "description": "🥇Spring 2024 NSBE-SHPE Hackathon Winner🥇||Developed a platform using React and Express JS with Google Gemini integration that simplifies bank comparisons for accounts, credit cards, and loan rates, saving users significant research time.",
             "url": "https://github.com/Nikulp23/FinanceHacks"
         },
         {
             "image": "/projects/cartx.png",
             "title": "CartX",
             "technologies": "React / Express JS / Python / Selenium / Mongo DB",
-            "description": "⚡Project Lead⚡||CartX Vision revolutionizes shopping by finding the best local deals with a single click. Leveraging a dynamic React frontend and a powerful Node.js backend, it reduces shopping time by up to 15%. Integrated with RESTful APIs and advanced web scraping, CartX provides users with real-time price comparisons across major retailers.",
+            "description": "⚡Project Lead⚡||Created a platform using React, Express JS, and Python with Selenium that optimizes shopping by providing real-time price comparisons, reducing user shopping time by up to 15%.",
             "url": "https://github.com/CartX-RCOS"
         },
         {
             "image": "/projects/mathWhisperer.png",
             "title": "Math Whisperer",
             "technologies": "React / OpenAI / Wolfram Alpha / Voice Recognition",
-            "description": "💡Hack RPI 2023 Submission💡||Transforming math accessibility with voice commands, our project empowers visually impaired users to solve equations effortlessly. Advanced speech recognition and NLP deliver intuitive auditory responses, making education more inclusive.",
+            "description": "💡Hack RPI 2023 Submission💡||This project enables visually impaired users to solve math equations using voice commands. It integrates speech recognition and natural language processing to provide auditory feedback for better accessibility.",
             "url": "https://devpost.com/software/mathwhisperer"
         },
         {
             "image": "/projects/connect4.png",
-            "title": "Connect 4 AI Co-Champion",
+            "title": "Connect 4 AI",
             "technologies": "Python",
-            "description": "🧠2023 Minds and Machines AI Competition🧠||Developed a Connect 4 AI using minimax algorithms and alpha-beta pruning to accurately predict optimal moves up to six moves ahead. The AI consistently makes strong strategic decisions, demonstrating advanced gameplay and effective decision-making.",
+            "description": "🧠2023 Minds and Machines AI Competition Co-Champion🧠||Developed a Connect 4 AI using minimax algorithms and alpha-beta pruning to accurately predict optimal moves up to six moves ahead.",
             "url": "https://github.com/Vitisadi/connect-four-AI"
         },
         {
             "image": "/projects/image-recognition.png",
-            "title": "Image Recognition Neural Network",
+            "title": "AlexNet NeuralNet",
             "technologies": "Python, PyTorch, Torchvision",
-            "description": "🤖AI Image Recognition🤖||Developed an image recognition neural network using AlexNet, a pre-trained 8-layer deep neural network that classifies images into 1,000 categories.",
+            "description": "🤖AI Image Recognition Neural Network🤖||Developed an image recognition neural network using AlexNet, a pre-trained 8-layer deep neural network that classifies images into 1,000 categories.",
             "url": "https://github.com/Vitisadi/image-recognition"
         },
         {
             "image": "/projects/glibby.gif",
             "title": "Glibby",
             "technologies": "C++ / CMake",
-            "description": "🔥RCOS Spring '23🔥||Developed advanced algorithms for polynomial operations, including addition, subtraction, multiplication, division, and root finding using techniques like the quadratic formula. This enhancement significantly boosts the library's computational capabilities, supporting high-performance calculations for diverse applications.",
+            "description": "🔥RCOS Spring '23🔥||Developed advanced algorithms for polynomial fractal operations, significantly boosts the library's computational capabilities, supporting high-performance calculations for diverse applications.",
             "url": "https://github.com/2020wmarvil/glibby"
         }
         

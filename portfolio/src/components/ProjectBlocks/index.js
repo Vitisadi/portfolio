@@ -19,10 +19,12 @@ const ProjectsBlocks = () => {
                             <div className="content">
                                 <p className="title">{port.title}</p>
                                 <h4 className="sub-text technologies">{port.technologies}</h4>
-                                <br></br>
-                                <h4 className="sub-text description">{port.description && port.description.split('|').map((desc, index) => (
-                                    <span key={index} style={{ display: "block", marginBottom: "8px" }}>{desc}<br /></span>
-                                ))}</h4>
+                                <br />
+                                <div className="sub-text description">
+                                    {port.description && port.description.split('|').map((desc, index) => (
+                                        <p key={index} className="description-line">{desc}</p>
+                                    ))}
+                                </div>
                                 <button
                                     className="btn"
                                     onClick={() => window.open(port.url)}
