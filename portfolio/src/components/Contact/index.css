@@ -84,3 +84,19 @@
 .long-subject {
     width: 200%;
 }
+
+@media (max-width: 1024px) {
+    .contact .col-md-6:first-child {
+        display: none; 
+    }
+    
+    .contact .col-md-6 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .contact .align-items-center {
+        justify-content: center;
+        text-align: center;
+    }
+}
