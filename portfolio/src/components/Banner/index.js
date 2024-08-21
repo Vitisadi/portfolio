@@ -27,7 +27,9 @@ const Banner = () => {
               <TrackVisibility>
                 {({ isVisible }) =>
                 <div>
-                  <span className="tagline">Welcome to my Portfolio</span>
+                  <div className="tagline-container">
+                    <span className="tagline">Welcome to my Portfolio</span>
+                  </div>
                   <h1>
                     <span className={`${letterClass} _12`}>H</span>
                     <span className={`${letterClass} _13`}>i!</span>

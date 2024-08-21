@@ -8,6 +8,12 @@
     width: 100vw;
 }
 
+.tagline-container {
+    width: 100%; 
+    display: flex;
+    margin-bottom: 16px;
+}
+
 .banner .tagline {
     font-weight: 700;
     letter-spacing: 0.8px;
@@ -83,7 +89,6 @@
     border-right: 0.08em solid #666;
 }
 
-/* Slob */ 
 h2 {
     color: #8d8d8d;
     font-weight: 400;
@@ -120,7 +125,10 @@ h2 {
         flex: 0 0 100%;
     }
 
-    /* Center content in the banner on smaller screens */
+    .tagline-container {
+        justify-content: center; 
+    }
+
     .banner h1,
     .banner p,
     .banner .tagline,
@@ -130,14 +138,12 @@ h2 {
         margin-right: auto;
     }
 
-    /* Ensure the tagline is centered */
     .banner .tagline {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 
-    /* Optionally adjust the alignment of the container to center everything */
     .banner .aligh-items-center {
         display: flex;
         flex-direction: column;
