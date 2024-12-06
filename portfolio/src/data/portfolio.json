@@ -15,11 +15,11 @@
             "url": "https://github.com/CartX-RCOS"
         },
         {
-            "image": "/projects/mathWhisperer.png",
-            "title": "Math Whisperer",
-            "technologies": "React / OpenAI / Wolfram Alpha / Voice Recognition",
-            "description": "💡Hack RPI 2023 Submission💡||This project enables visually impaired users to solve math equations using voice commands. It integrates speech recognition and natural language processing to provide auditory feedback for better accessibility.",
-            "url": "https://devpost.com/software/mathwhisperer"
+            "image": "/projects/ecovision.png",
+            "title": "🏆EcoVISION🏆",
+            "technologies": "Python, Flask, React, OpenCV, OpenAI",
+            "description": "🥇Hack RPI Best AI Hack Winner🥇||Created a web app using React and Flask to identify recyclables with 95% accuracy, leveraging AI and OpenCV for image/video analysis. Enhanced waste sorting efficiency by 20% and provided actionable sustainability insights.",
+            "url": "https://devpost.com/software/recircle-ot57su"
         },
         {
             "image": "/projects/connect4.png",
@@ -36,12 +36,11 @@
             "url": "https://github.com/Vitisadi/image-recognition"
         },
         {
-            "image": "/projects/glibby.gif",
-            "title": "Glibby",
-            "technologies": "C++ / CMake",
-            "description": "🔥RCOS Spring '23🔥||Developed advanced algorithms for polynomial fractal operations, significantly boosts the library's computational capabilities, supporting high-performance calculations for diverse applications.",
-            "url": "https://github.com/2020wmarvil/glibby"
+            "image": "/projects/mathWhisperer.png",
+            "title": "Math Whisperer",
+            "technologies": "React / OpenAI / Wolfram Alpha / Voice Recognition",
+            "description": "💡Hack RPI 2023 Submission💡||This project enables visually impaired users to solve math equations using voice commands. It integrates speech recognition and natural language processing to provide auditory feedback for better accessibility.",
+            "url": "https://devpost.com/software/mathwhisperer"
         }
-        
     ]
 }
