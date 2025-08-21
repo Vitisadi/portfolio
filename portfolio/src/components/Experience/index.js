@@ -13,11 +13,14 @@ const Experience = () => {
                     <img src={path + exp.image} alt={exp.company} className="experience-image" />
                     <h4 className="experience-title">{exp.title}</h4>
                     <p className="experience-date">{exp.date}</p>
-                    <ul className="experience-description">
-                        {exp.description.map((desc, i) => (
+                    {exp.summary && <p className="experience-summary">{exp.summary}</p>}
+                    {exp.bullets && (
+                        <ul className="experience-description">
+                        {exp.bullets.map((desc, i) => (
                             <li key={i}>{desc}</li>
                         ))}
-                    </ul>
+                        </ul>
+                    )}
                 </div>
                 ))}
             </div>

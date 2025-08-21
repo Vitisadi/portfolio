@@ -1,36 +1,38 @@
 [
-    {
-      "company": "WebstaurantStore",
-      "title": "Junior Software Engineer",
-      "date": "May 2024 - Aug 2024",
-      "description": [
-        "Developed a new ASP.NET service in C# to intercept and suppress redundant alerts, reducing operational costs by 90% and eliminating over 50,000 weekly Sentry alerts, resulting in substantial savings under the pay-per-alert model.",
-        "Created an optimized SQL procedure to retrieve 1,000,000+ customer shipping reports with integrated filtering, reducing load times by 5%, integrating with a dynamic frontend using Blazor and Kendo UI for enhanced data visualization.",
-        "Modified MediatR API endpoints to incorporate filtering during SQL data retrieval, resulting in a 10% reduction in load times and doubling publicly accessible warehouse data."
-      ],
-      "image": "/experience/webstaurant-store.png"
-    },
-    {
-        "company": "Grid Protection Alliance",
-        "title": "Software Engineering Intern",
-        "date": "May 2023 - May 2024",
-        "description": [
-            "Spearheaded a new Grafana data source plugin using React and TypeScript to simultaneously process over 750,000 phasor data points and created 30+ custom functions for advanced analysis and faulty phasor detection.",
-            "Developed a backend in C# with .NET RESTful API calls to retrieve data from multiple SQL tables, enabling on-retrieval function modification and reducing data analysis wait times by 15%.",
-            "Worked part-time during school to fix bugs and manage issues using Jira."
-        ],
-        "image": "/experience/gridprotectionalliance.jpg"
-      },
-    {
-      "company": "RCOS",
-      "title": "Coordinator",
-      "date": "Aug 2024 - Present",
-      "description": [
-        "Leading a group of 480 students spanning 120+ different open source projects with a team of 5 other student coordinators.",
-        "Work closely with a room of 30 students, guiding project leads on project planning and conducting daily stand-ups",
-        "Playing a key role in scaling the program, contributing to a steady 10% sign up growth every year."
-      ],
-      "image": "/experience/rcos.png"
-    }
+  {
+    "company": "Datadog",
+    "title": "Software Engineering Intern",
+    "date": "June 2025 - Aug 2025",
+    "summary": "At Datadog, I worked on the OpenTelemetry Agent team (DDOT), scaling observability infrastructure and building automation. I also competed in the company-wide hackathon where our project won 1st place.",
+    "bullets": [
+      "Won 1st place out of 500+ teams by building Workflow Automation auto-suggestions and fine-tuning an OpenAI model on 70K+ points, cutting runtime by 90% (3–5s vs 40s).",
+      "Enabled Linux bare-metal support for Datadog OpenTelemetry Collector (DDOT) by adding OCI packaging and installer builds, reaching 5K+ new hosts and reducing setup from 20+ minutes to a one-click install.",
+      "Integrated remote configuration into DDOT, enabling distributed concurrent updates to 1,000+ agents in under 5 minutes."
+    ],
+    "image": "/experience/datadog.png"
+  },
+  {
+    "company": "WebstaurantStore",
+    "title": "Software Engineering Intern",
+    "date": "May 2024 - Aug 2024",
+    "summary": "I focused on backend and frontend optimizations, reducing operational costs and improving system performance for warehouse reporting and alerting systems.",
+    "bullets": [
+      "Reduced alerting costs by 90%+ by eliminating 50K+ redundant weekly Sentry logs with a C# ASP.NET service.",
+      "Improved SQL query performance on 1M+ shipping reports by ~500ms per query (10%) with pre-filtering logic.",
+      "Refactored MediatR API endpoints to support dynamic filtering and improve Blazor/Kendo UI data pipelines."
+    ],
+    "image": "/experience/webstaurant-store.png"
+  },
+  {
+    "company": "Grid Protection Alliance",
+    "title": "Software Engineering Intern",
+    "date": "May 2023 - May 2024",
+    "summary": "I contributed to power grid monitoring software by building high-performance data visualization tools and backend systems. While working part-time during school, I helped enhance analysis speed and reliability for phasor measurement data used across the U.S. electric grid.",
+    "bullets": [
+      "Built a Grafana data source plugin with React and TypeScript to visualize over 750,000 phasor data points, including 30+ custom functions for advanced analysis and fault detection.",
+      "Developed a backend in C# with .NET RESTful API calls to retrieve data from multiple SQL tables, enabling on-retrieval function modification and reducing data analysis latency by 15%.",
+      "Maintained production systems by fixing bugs and managing issues in Jira while balancing a part-time workload during school."
+    ],
+    "image": "/experience/gridprotectionalliance.jpg"
+  }
 ]
-  
